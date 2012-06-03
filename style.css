@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    position: relative;
+    top: 50px;
+    left: 30%;
+}
+
+ul li {
+    position: relative;
+    float: left;
+    width: 100px;
+    height: 130px;
+    margin: 10px;
+    list-style: none;
+}
+
+li div {
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    margin-top: 2px;
+    width: 100px;
+}
+
+li a {
+    display: block;
+    position: relative;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    height: 90px;
+    width: 100px;
+    text-decoration: none;
+}
+
+.hover a {
+    background: -moz-linear-gradient(top, #c9de96 0%, #8ab66b 44%, #398235 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c9de96), color-stop(44%,#8ab66b), color-stop(100%,#398235)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #c9de96 0%,#8ab66b 44%,#398235 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #c9de96 0%,#8ab66b 44%,#398235 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #c9de96 0%,#8ab66b 44%,#398235 100%); /* IE10+ */
+    background: linear-gradient(top, #c9de96 0%,#8ab66b 44%,#398235 100%); /* W3C */
+}
+
+.hover div {
+    height: 38px;
+    background: -moz-linear-gradient(top, rgba(201,222,150,1) 0%, rgba(138,182,107,0.32) 50%, rgba(99,157,81,0) 74%, rgba(57,130,53,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(201,222,150,1)), color-stop(50%,rgba(138,182,107,0.32)), color-stop(74%,rgba(99,157,81,0)), color-stop(100%,rgba(57,130,53,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(201,222,150,1) 0%,rgba(138,182,107,0.32) 50%,rgba(99,157,81,0) 74%,rgba(57,130,53,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(201,222,150,1) 0%,rgba(138,182,107,0.32) 50%,rgba(99,157,81,0) 74%,rgba(57,130,53,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(201,222,150,1) 0%,rgba(138,182,107,0.32) 50%,rgba(99,157,81,0) 74%,rgba(57,130,53,0) 100%); /* IE10+ */
+    background: linear-gradient(top, rgba(201,222,150,1) 0%,rgba(138,182,107,0.32) 50%,rgba(99,157,81,0) 74%,rgba(57,130,53,0) 100%); /* W3C */
+}
+
+.shadow a {
+    z-index: 1;
+    background: rgb(255,168,76); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,168,76,1) 0%, rgba(255,123,13,1) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,168,76,1)), color-stop(100%,rgba(255,123,13,1))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* IE10+ */
+    background: linear-gradient(top, rgba(255,168,76,1) 0%,rgba(255,123,13,1) 100%); /* W3C */
+}
+
+.shadow div {
+    top: -10px;
+    left: -20px;
+    height: 15px;
+    width: 140px;
+    background: -moz-radial-gradient(center, ellipse cover, rgba(0,0,0,0.65) 4%, rgba(0,0,0,0.65) 9%, rgba(0,0,0,0) 68%, rgba(0,0,0,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(4%,rgba(0,0,0,0.65)), color-stop(9%,rgba(0,0,0,0.65)), color-stop(68%,rgba(0,0,0,0)), color-stop(100%,rgba(0,0,0,0))); /* Chrome,Safari4+ */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0.65) 4%,rgba(0,0,0,0.65) 9%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-radial-gradient(center, ellipse cover, rgba(0,0,0,0.65) 4%,rgba(0,0,0,0.65) 9%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%); /* Opera 12+ */
+    background: -ms-radial-gradient(center, ellipse cover, rgba(0,0,0,0.65) 4%,rgba(0,0,0,0.65) 9%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%); /* IE10+ */
+    background: radial-gradient(center, ellipse cover, rgba(0,0,0,0.65) 4%,rgba(0,0,0,0.65) 9%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%); /* W3C */
+}
