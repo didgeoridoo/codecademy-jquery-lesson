@@ -1,6 +1,6 @@
-$(document).ready(function(){
+jQuery(document).ready(function($){
    
-   $('.hover').hover(
+   $('.reflect').hover(
        function(){
            $(this).children('a').animate({
                 bottom: '10px'

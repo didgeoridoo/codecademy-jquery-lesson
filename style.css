@@ -38,7 +38,7 @@ li a {
     text-decoration: none;
 }
 
-.hover a {
+.reflect a {
     background: -moz-linear-gradient(top, #c9de96 0%, #8ab66b 44%, #398235 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c9de96), color-stop(44%,#8ab66b), color-stop(100%,#398235)); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top, #c9de96 0%,#8ab66b 44%,#398235 100%); /* Chrome10+,Safari5.1+ */
@@ -47,7 +47,7 @@ li a {
     background: linear-gradient(top, #c9de96 0%,#8ab66b 44%,#398235 100%); /* W3C */
 }
 
-.hover div {
+.reflect div {
     height: 38px;
     background: -moz-linear-gradient(top, rgba(201,222,150,1) 0%, rgba(138,182,107,0.32) 50%, rgba(99,157,81,0) 74%, rgba(57,130,53,0) 100%); /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(201,222,150,1)), color-stop(50%,rgba(138,182,107,0.32)), color-stop(74%,rgba(99,157,81,0)), color-stop(100%,rgba(57,130,53,0))); /* Chrome,Safari4+ */
